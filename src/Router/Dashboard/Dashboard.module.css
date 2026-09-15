@@ -1,0 +1,97 @@
+.dashboardContainer{
+  margin-top: 56px;
+  height: 250vh;
+  
+}
+
+.mySkills {
+  background-color: #120743;
+  padding: 40px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0 0 50px #270F8C;
+  border-top-width: 1px;
+}
+
+/* .mySkills h3 {
+  margin-bottom: 2px;
+}
+
+.mySkills p {
+  margin-bottom: 16px;
+} */
+
+.dashboardBox {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if needed */
+    justify-content: space-between; /* Ensures even spacing */
+    padding: 24px;
+    color: white;
+    background: linear-gradient(to bottom, #958db3, #f0eff3,#958db3);
+    border-radius: 0px 0px 10px 10px;  
+    margin: 0 auto;
+  }
+  
+  .stats {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .statBox {
+    /* width: 1024px; 251 285*/
+    width: 180px;
+    height: 200px;
+    color: rgb(6, 6, 6);
+  background: transparent;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+  }
+  
+  .statBox h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .statBox p {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .mySkills button {
+    background-color:#777DCC;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mySkills button:hover {
+    background-color: #6c72c2;
+  }
+
+  
+  @media screen and (max-width: 830px) {
+    .dashboardBox {
+      display: flex;
+      flex-direction: column;
+      align-items: center; 
+      padding: 24px;
+      background: linear-gradient(to bottom, #958db3, #f0eff3,#958db3);
+
+      width: 100%;
+      max-width: 270px; 
+      margin: 0 auto; 
+    }
+    
+    .statBox {
+      width: 200px; /* Adjusts to full width on small screens */
+      margin: 8px 0; /* Adds spacing between boxes */
+      text-align: center; /* Center text inside */
+      padding: 25px;
+    }
+ 
+}

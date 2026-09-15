@@ -1,0 +1,7 @@
+[
+    { "name": "HTML & CSS", "percentage": 90, "color": "#270f8b" },
+    { "name": "JavaScript", "percentage": 75, "color": "#270f8b" },
+    { "name": "ReactJS", "percentage": 30, "color": "#270f8b" },
+    { "name": "PHP", "percentage": 80, "color": "#270f8b" }
+  ]
+  

@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Software Developer (Contract)",
+    "company": "Matsing Technology",
+    "location": "Remote",
+    "dates": "2025",
+    "summary": [
+      "Designed and developed a product support portal with separate admin and client dashboards.",
+      "Built a client-facing data dashboard with organized visualizations and daily, weekly, and monthly filters.",
+      "Modernized a critical internal dashboard, improving user navigation efficiency by 70% through responsive design and reusable components.",
+      "Developed advanced search filters, dynamic pagination, formatted data export, and resolved 15+ critical UI bugs."
+    ],
+    "imageSrc": "jsonImage/image-26.png"
+  },
+  {
+    "title": "Software Developer",
+    "company": "A #1 Air",
+    "location": "Lewisville, Texas",
+    "dates": "2022-2024",
+    "summary": [
+      "Developed a customer service platform using Laravel and MySQL for complaint management and dispatch tracking.",
+      "Built a real-time chat application using WebSockets and Laravel, reducing customer service response time by 40%.",
+      "Improved application performance by 30% through JavaScript and CSS optimization.",
+      "Designed relational database schemas and efficient CRUD operations for reliable data management."
+    ],
+    "imageSrc": "jsonImage/image-22.png"
+  },
+  {
+    "title": "Junior Developer",
+    "company": "ALPHA AI SOLUTIONS",
+    "location": "McKinney, Texas",
+    "dates": "2019-2022",
+    "summary": [
+      "Reduced page load times by an average of 40% by optimizing HTML, JavaScript, and CSS.",
+      "Contributed to 5+ major feature releases in an Agile team, participating in code reviews and documentation.",
+      "Performed thorough testing of new features, reducing post-deployment bug reports by 15%.",
+      "Reduced user-reported UI issues by 25% and improved application efficiency by 20%."
+    ],
+    "imageSrc": "jsonImage/image-23.png"
+  },
+  {
+    "title": "QA Tester / Analyst",
+    "company": "MUSHKO ELECTRONICS",
+    "location": "Karachi, Pakistan",
+    "dates": "2018-2019",
+    "summary": [
+      "Tested customer portal features, including login, payments, and account management.",
+      "Created and executed test cases using QTP for front-end testing and SQL for back-end testing.",
+      "Reported bugs and collaborated with developers to resolve issues.",
+      "Ensured application functionality and supported quality assurance processes."
+    ],
+    "imageSrc": "jsonImage/building.png"
+  }
+]

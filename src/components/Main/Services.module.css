@@ -1,0 +1,119 @@
+.serviceContainer{
+  background-color: #120743;
+  padding: 40px;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0 0 50px #270F8C;
+  border-top-width: 1px;
+  width: 100%;
+}
+
+/* Ensure that the slider items are correctly sized */
+.sliderContainer {
+  width: 100%;
+  position: relative; /* Ensure arrows are positioned relative to this container */
+  /* background: linear-gradient(to bottom, #120743, #270F8C); */
+  background: linear-gradient(to right, #958db3, #f0eff3,#958db3);
+  border-top-width: 1px;
+  box-shadow: 0 0 50px #270F8C;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 24px;
+
+}
+.sliderItem {
+  width: 100%; /* Allow it to take up the available space */
+  max-width: 100%; /* Ensure it doesn't overflow */
+  background:transparent;
+  /* Card background */
+  border-radius: 8px; /* Rounded corners */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  Shadow */
+  padding: 5%; /* Adjust the padding percentage */
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+.cardDiv {
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Align children in a column */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  padding: 20px; 
+
+    border-radius: 14px;
+  /* background-color: rgba(12, 12, 12, 0.278); */
+  background: rgba(22, 22, 55, 0.823);
+  border: 2px solid #0f1130;  
+  /* background-color:#442F98;
+  border: 1px solid #2C066A; */
+  color: #ffffff; /* Text color */
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(100, 98, 98, 0.2);
+  overflow: hidden;
+  transition: transform 0.2s; 
+  }
+  .cardDiv:hover {
+    transform: scale(1.05);
+  }
+  /* Paragraph styling */
+.paragraph {
+  display: -webkit-box; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3; /* Show 3 lines by default */
+  line-height: 1.5; 
+  transition: max-height 0.3s ease;
+}
+
+/* Show full paragraph on hover */
+.cardDiv:hover .paragraph {
+  display: block; 
+  -webkit-line-clamp: unset; /* Remove line clamp */
+  overflow: visible; /* Ensure all text is visible */
+}
+
+.iconRound{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 120px;
+  border: 3px solid mediumturquoise;
+  box-shadow: 0 0 25px mediumturquoise;
+  width: 120px;
+  height: 120px;
+margin-bottom: 16px;
+}
+.cardTitle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  
+}
+/* 
+.cardButton {
+  -webkit-line-clamp: 2;
+}
+
+.cardDesc {
+  -webkit-line-clamp: 2;
+} */
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  line-height: 1.5; /* Adjust as needed */
+}
+
+@media (max-width: 360px) {
+
+/* .sliderItem {
+height:100px;
+} */
+}

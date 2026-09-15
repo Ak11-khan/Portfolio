@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Outfit" , Arial, Helvetica, sans-serif;
+} */
+
+/* @layer components {
+    .heroHeading {
+      @apply font-black text-white lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px] mt-2;
+    }
+  } */

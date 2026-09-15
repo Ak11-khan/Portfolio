@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "faClipboardList",
+    "title": "Prototyping",
+    "description": "Create and evaluate prototypes to confirm concepts and improve features prior to large-scale implementation. Incorporate user insights from the outset of the design journey."
+  },
+  {
+    "icon": "faCogs",
+    "title": "Custom Development",
+    "description": "Design and develop custom applications that meet unique organizational requirements. From web to mobile platforms, we provide scalable and high-quality software tailored to your needs."
+  },
+  {
+    "icon": "faPalette",
+    "title": "UI/UX Design",
+    "description": "Craft engaging and user-friendly interfaces that enhance the overall experience. Focus on usability and interaction through strategic and user-focused design."
+  },
+  {
+    "icon": "faRocket",
+    "title": "Tech Innovation",
+    "description": "Investigate and apply the latest technologies to ensure your organization remains competitive. Foster growth by leveraging innovative tech strategies."
+  },
+  {
+    "icon": "faClipboardCheck",
+    "title": "Agile Project Management",
+    "description": "Implement Agile methodologies to streamline development processes. I facilitate collaboration, manage project timelines, and ensure continuous improvement for optimal results."
+  },
+  {
+    "icon": "faPlug",
+    "title": "API Development",
+    "description": "Design and implement robust RESTful APIs to ensure seamless integration between systems, enhancing functionality and user experience across applications."
+  }
+]

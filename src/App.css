@@ -1,0 +1,38 @@
+@import "./variable.css";
+
+#root {
+  max-width: 1280px;
+  /* height: 200vh; */
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+  background: linear-gradient(to right, #120743, #270F8B, #2D12A9, #270F8C);
+  
+ }
+
+
+.slick-prev:before, .slick-next:before{
+  color: black;
+  background: white;  
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.slick-dots li button:before{
+  font-size: 8px;
+}
+
+.text-red {
+  color: #d81d1d; /* Tailwind's blue-600 */
+}
+
+.slick-dots li button {
+  width: 1px; /* Adjust width */
+  height: 1px; /* Adjust height */
+  border-radius: 50%; /* Make it circular */
+  background: #777; /* Background color */
+}
+
+.slick-dots li.slick-active button {
+  background: #606060; /* Active dot color */
+}
