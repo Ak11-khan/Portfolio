@@ -1,6 +1,6 @@
 import React from "react";
 import projects from "../../data/projects.json";
-import { getImageUrl } from "../../Utils";
+import { getImageUrl } from "../../utils";
 import style from "./Projects.module.css";
 
 const Projects = () => {
