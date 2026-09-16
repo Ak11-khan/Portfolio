@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { getImageUrl } from "../../Utils";
+import { getImageUrl } from "../../imageutils";
 import styles from "../Navbar/Navbar.module.css";
 
 const Navbar = () => {
