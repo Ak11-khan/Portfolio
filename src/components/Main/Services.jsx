@@ -1,6 +1,6 @@
 import React, { useState ,useEffect, useRef} from "react";
 import service from "../../data/service.json";
-import { getImageUrl } from "../../Utils";
+import { getImageUrl } from "../../imageutils";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";

@@ -2,7 +2,7 @@ import React from "react";
 import experience from "../../data/experience.json";
 import skills from "../../data/skills.json";
 import { motion } from "framer-motion";
-import { getImageUrl } from "../../Utils";
+import { getImageUrl } from "../../imageutils";
 import style from "./Experience.module.css"; // Import the CSS module
 
 const skillVariants = (delay) => {
