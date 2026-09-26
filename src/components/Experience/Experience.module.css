@@ -135,12 +135,15 @@
 }
 
 .experienceDetails {
- display: flex;
- flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .expDate {
-  
+   align-self: flex-start;  /* ← added */
+  width: fit-content;      /* ← added */
   display: inline-block;
   font-size: 12px;
   font-weight: 400;
@@ -151,13 +154,6 @@
   padding: 4px 8px;
   margin-bottom: 8px;
 }
-
-
-
-
-
-
-
 
 .title {
   color: rosybrown;
@@ -222,13 +218,15 @@
     gap: 9px;
   }
   .experienceContent {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
+    grid-template-columns: 1fr;  /* stack: logo on top, text below */
+    justify-items: center;
+    gap: 20px;
+    padding: 20px;
   }
 
   .imageGallery {
-    max-width: none; /* Remove width restriction */
-    margin-bottom: 15px; /* Space below image gallery */
+    width: 100%;
+    min-height: auto;
   }
 
   .imageGallery img {

@@ -93,9 +93,9 @@ const Experience = () => {
               {/* Experience Details */}
               <div className={style.experienceDetails}>
                 <h6 className="text-xl font-semibold">{experience.title}</h6>
-                <div className={`w-full md:w-1/5 mt-1 ${style.expDate}`}>{experience.dates}</div>
+                <div className={`mt-1 ${style.expDate}`}>{experience.dates}</div>
                 <div className="text-left mt-2 md:mt-0">
-                  <ul className="md:list-disc ">
+                 <ul className="list-disc pl-5">
                     {experience.summary.map((item) => (
                       <li className="text-md md:text-base mb-2 " key={item}>
                         {" "}

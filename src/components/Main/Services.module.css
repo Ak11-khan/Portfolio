@@ -21,16 +21,14 @@
 
 }
 .sliderItem {
-  width: 100%; /* Allow it to take up the available space */
-  max-width: 100%; /* Ensure it doesn't overflow */
-  background:transparent;
-  /* Card background */
-  border-radius: 8px; /* Rounded corners */
-  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);  Shadow */
-  padding: 5%; /* Adjust the padding percentage */
+  width: 100%;
+  max-width: 100%;
+  background: transparent;
+  border-radius: 8px;
+  padding: 10px;
   box-sizing: border-box;
   text-align: center;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -38,24 +36,27 @@
 }
 
 .cardDiv {
-  display: flex; /* Enable flexbox */
-  flex-direction: column; /* Align children in a column */
-  justify-content: center; /* Center vertically */
-  align-items: center; /* Center horizontally */
-  padding: 20px; 
+width: 100%;
+  max-width: 500px;
+  min-height: 350px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    border-radius: 14px;
-  /* background-color: rgba(12, 12, 12, 0.278); */
+  padding: 20px;
+  box-sizing: border-box;
+
+  border-radius: 14px;
   background: rgba(22, 22, 55, 0.823);
-  border: 2px solid #0f1130;  
-  /* background-color:#442F98;
-  border: 1px solid #2C066A; */
-  color: #ffffff; /* Text color */
+  border: 2px solid #0f1130;
+  color: #ffffff;
   text-align: center;
   box-shadow: 0 4px 6px rgba(100, 98, 98, 0.2);
   overflow: hidden;
-  transition: transform 0.2s; 
-  }
+  transition: transform 0.2s;
+}
   .cardDiv:hover {
     transform: scale(1.05);
   }
@@ -95,6 +96,26 @@ margin-bottom: 16px;
   margin-bottom: 8px;
   
 }
+
+.sliderContainer :global(.slick-slide) {
+  box-sizing: border-box;
+}
+
+.sliderContainer :global(.slick-slide > div) {
+  width: 100%;
+}
+
+.sliderContainer :global(.slick-list) {
+  overflow: hidden;
+}
+
+.sliderContainer :global(.slick-track) {
+  display: flex;
+  align-items: center;
+}
+.sliderContainer :global(.slick-slide .sliderItem) {
+  width: 100%;
+}
 /* 
 .cardButton {
   -webkit-line-clamp: 2;
@@ -116,4 +137,93 @@ margin-bottom: 16px;
 /* .sliderItem {
 height:100px;
 } */
+}
+@media (max-width: 850px) {
+  .sliderContainer {
+    padding: 15px;
+  }
+
+  .sliderItem {
+    height: 400px;
+    padding: 10px;
+  }
+
+  .cardDiv {
+    width: 100%;
+    max-width: 350px;
+    min-height: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .sliderContainer {
+    padding: 10px;
+  }
+
+  .sliderItem {
+    height: 390px;
+  }
+
+  .cardDiv {
+    width: 100%;
+    max-width: 320px;
+    min-height: 350px;
+    padding: 15px;
+  }
+
+  .iconRound {
+    width: 100px;
+    height: 100px;
+  }
+
+  .cardTitle {
+    font-size: 18px;
+  }
+}
+
+
+/* Custom slider dots */
+.sliderContainer :global(.slick-dots li button:before) {
+  display: none;
+}
+
+.sliderContainer :global(.slick-dots li button) {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border-radius: 50%;
+  background: #120743;
+  opacity: 0.35;
+}
+
+.sliderContainer :global(.slick-dots li.slick-active button) {
+  opacity: 1;
+}
+
+/* Keep dots inside the slider container */
+.sliderContainer :global(.slick-dots) {
+  position: static;
+  margin-top: 16px;
+}
+
+.sliderContainer :global(.slick-dotted.slick-slider) {
+  margin-bottom: 0;
+}
+
+/* Keep arrows inside the slider */
+.sliderContainer :global(.slick-slider) {
+  padding: 0 40px; /* space for the arrows on both sides */
+}
+
+.sliderContainer :global(.slick-prev),
+.sliderContainer :global(.slick-next) {
+  z-index: 2;
+}
+
+.sliderContainer :global(.slick-prev) {
+  left: 0;
+}
+
+.sliderContainer :global(.slick-next) {
+  right: 0;
 }

@@ -1,4 +1,4 @@
-import resume from "../../../assets/nav/Arfa_Khan_Resume.pdf";
+
 import React from "react";
 // import './SkillCircle.css';
 import style from "./Dashboard.module.css";
@@ -24,7 +24,8 @@ const Dashboard = () => {
           intuitive and visually appealing interfaces while ensuring robust
           functionality.
         </p>
-        <a href={resume} download>
+        <a href="/ArfaKhan_Software_Developer_Resume.pdf" download>
+
         <button>Download CV</button>
         </a>
       </div>
